@@ -66,6 +66,7 @@
         -->
 
         <main>
+            {{--Start about--}}
             <section class="section-about">
                 <div class="u-center-text u-mb-8">
                     <h2 class="heading-secondary">
@@ -102,6 +103,24 @@
                     </div>
                 </div>
             </section>
+            {{--End about--}}
+
+            {{--Start features--}}
+            <section class="section-features">
+
+                <div class="row">
+                    <div class="col-1-of-4">
+                        <div class="feature-box">
+                            <i class="feature-box__icon icon-basic-world"></i>
+                            <h3 class="heading-tertiary">Explore the world</h3>
+                            <div class="feature-box__text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur deleniti iste.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {{--End features--}}
         </main>
     </body>
 </html>
