@@ -26,5 +26,82 @@
                 <a href="#" class="btn btn--white btn--animated">Discover our tours</a>
             </div>
         </header>
+
+        <!--
+        <section class="grid-test">
+            <div class="row">
+                <div class="col-1-of-2">Col 1 of 2</div>
+                <div class="col-1-of-2">Col 1 of 2</div>
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-3">Col 1 of 3</div>
+                <div class="col-1-of-3">Col 1 of 3</div>
+                <div class="col-1-of-3">Col 1 of 3</div>
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-3">Col 1 of 3</div>
+                <div class="col-2-of-3">Col 2 of 3</div>
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-4">Col 1 of 4</div>
+                <div class="col-1-of-4">Col 1 of 4</div>
+                <div class="col-1-of-4">Col 1 of 4</div>
+                <div class="col-1-of-4">Col 1 of 4</div>
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-4">Col 1 of 4</div>
+                <div class="col-1-of-4">Col 1 of 4</div>
+                <div class="col-2-of-4">Col 2 of 4</div>
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-4">Col 1 of 4</div>
+                <div class="col-3-of-4">Col 3 of 4</div>
+            </div>
+        </section>
+        -->
+
+        <main>
+            <section class="section-about">
+                <div class="u-center-text u-mb-8">
+                    <h2 class="heading-secondary">
+                        Exciting tours for adventurous people
+                    </h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-1-of-2">
+                        <h3 class="heading-tertiary u-mb-small">You're going to fall in love with nature</h3>
+                        <p class="paragraph">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, culpa ducimus eum excepturi
+                            fugiat harum maxime nobis nulla odit officia possimus quasi quo reiciendis rem repellat,
+                            repellendus sequi sunt vero!
+                        </p>
+
+                        <h3 class="heading-tertiary u-mb-small">Live adventures like you never have before</h3>
+                        <p class="paragraph">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, culpa ducimus eum excepturi
+                            fugiat harum maxime nobis nulla odit officia possimus quasi quo reiciendis rem repellat,
+                            repellendus sequi sunt vero!
+                        </p>
+
+                        <a href="javascript:void(0)" class="btn-text">
+                            Learn more &rarr;
+                        </a>
+                    </div>
+                    <div class="col-1-of-2">
+                        <div class="composition">
+                            <img src="images/nat-1-large.jpg" alt="" class="composition__photo composition__photo--p1">
+                            <img src="images/nat-2-large.jpg" alt="" class="composition__photo composition__photo--p2">
+                            <img src="images/nat-3-large.jpg" alt="" class="composition__photo composition__photo--p3">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
     </body>
 </html>

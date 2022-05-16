@@ -1,0 +1,25 @@
+.u-center-text {
+    text-align: center;
+}
+
+@for $i from 1 through 8 {
+    .u-mb-#{$i} {
+        margin-bottom: #{$i}rem;
+    }
+
+    .u-mt-#{$i} {
+        margin-top: #{$i}rem;
+    }
+
+    .u-mr-#{$i} {
+        margin-right: #{$i}rem;
+    }
+
+    .u-ml-#{$i} {
+        margin-left: #{$i}rem;
+    }
+}
+
+.u-mb-small {
+    margin-bottom: 1.5rem;
+}
