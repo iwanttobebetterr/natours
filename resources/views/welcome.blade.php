@@ -112,7 +112,37 @@
                     <div class="col-1-of-4">
                         <div class="feature-box">
                             <i class="feature-box__icon icon-basic-world"></i>
-                            <h3 class="heading-tertiary">Explore the world</h3>
+                            <h3 class="heading-tertiary u-mb-small">Explore the world</h3>
+                            <div class="feature-box__text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur deleniti iste.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-1-of-4">
+                        <div class="feature-box">
+                            <i class="feature-box__icon icon-basic-compass"></i>
+                            <h3 class="heading-tertiary u-mb-small">Meet nature</h3>
+                            <div class="feature-box__text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur deleniti iste.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-1-of-4">
+                        <div class="feature-box">
+                            <i class="feature-box__icon icon-basic-map"></i>
+                            <h3 class="heading-tertiary u-mb-small">Find your way</h3>
+                            <div class="feature-box__text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur deleniti iste.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-1-of-4">
+                        <div class="feature-box">
+                            <i class="feature-box__icon icon-basic-heart"></i>
+                            <h3 class="heading-tertiary u-mb-small">Live a healthier life</h3>
                             <div class="feature-box__text">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur deleniti iste.
                             </div>
