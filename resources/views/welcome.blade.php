@@ -12,6 +12,24 @@
         <title>Natours | Exciting tours for adventurous people</title>
     </head>
     <body>
+        <div class="navigation">
+            <input type="checkbox" class="navigation__checkbox" id="navigation-toggle">
+            <label for="navigation-toggle" class="navigation__button">MENU</label>
+
+            <div class="navigation__background">&nbsp;</div>
+
+            <nav class="navigation__nav">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="javascript:void(0)" class="navigation__link">About Natours</a></li>
+                    <li class="navigation__item"><a href="javascript:void(0)" class="navigation__link">Your benefits</a></li>
+                    <li class="navigation__item"><a href="javascript:void(0)" class="navigation__link">Popular tours</a></li>
+                    <li class="navigation__item"><a href="javascript:void(0)" class="navigation__link">Stories</a></li>
+                    <li class="navigation__item"><a href="javascript:void(0)" class="navigation__link">Book now</a></li>
+                </ul>
+            </nav>
+        </div>
+
+
         <header class="header">
             <div class="header__logo-box">
                 <img src="{{ asset('images/logo-white.png') }}" alt="Logo" class="header__logo">
@@ -26,44 +44,6 @@
                 <a href="#" class="btn btn--white btn--animated">Discover our tours</a>
             </div>
         </header>
-
-        <!--
-        <section class="grid-test">
-            <div class="row">
-                <div class="col-1-of-2">Col 1 of 2</div>
-                <div class="col-1-of-2">Col 1 of 2</div>
-            </div>
-
-            <div class="row">
-                <div class="col-1-of-3">Col 1 of 3</div>
-                <div class="col-1-of-3">Col 1 of 3</div>
-                <div class="col-1-of-3">Col 1 of 3</div>
-            </div>
-
-            <div class="row">
-                <div class="col-1-of-3">Col 1 of 3</div>
-                <div class="col-2-of-3">Col 2 of 3</div>
-            </div>
-
-            <div class="row">
-                <div class="col-1-of-4">Col 1 of 4</div>
-                <div class="col-1-of-4">Col 1 of 4</div>
-                <div class="col-1-of-4">Col 1 of 4</div>
-                <div class="col-1-of-4">Col 1 of 4</div>
-            </div>
-
-            <div class="row">
-                <div class="col-1-of-4">Col 1 of 4</div>
-                <div class="col-1-of-4">Col 1 of 4</div>
-                <div class="col-2-of-4">Col 2 of 4</div>
-            </div>
-
-            <div class="row">
-                <div class="col-1-of-4">Col 1 of 4</div>
-                <div class="col-3-of-4">Col 3 of 4</div>
-            </div>
-        </section>
-        -->
 
         <main>
             {{--Start about--}}
