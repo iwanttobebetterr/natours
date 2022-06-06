@@ -22,11 +22,16 @@
 
             <nav class="navigation__nav">
                 <ul class="navigation__list">
-                    <li class="navigation__item"><a href="javascript:void(0)" class="navigation__link"><span>01</span>About Natours</a></li>
-                    <li class="navigation__item"><a href="javascript:void(0)" class="navigation__link"><span>02</span>Your benefits</a></li>
-                    <li class="navigation__item"><a href="javascript:void(0)" class="navigation__link"><span>03</span>Popular tours</a></li>
-                    <li class="navigation__item"><a href="javascript:void(0)" class="navigation__link"><span>04</span>Stories</a></li>
-                    <li class="navigation__item"><a href="javascript:void(0)" class="navigation__link"><span>05</span>Book now</a></li>
+                    <li class="navigation__item"><a href="javascript:void(0)" class="navigation__link"><span>01</span>About
+                            Natours</a></li>
+                    <li class="navigation__item"><a href="javascript:void(0)" class="navigation__link"><span>02</span>Your
+                            benefits</a></li>
+                    <li class="navigation__item"><a href="javascript:void(0)" class="navigation__link"><span>03</span>Popular
+                            tours</a></li>
+                    <li class="navigation__item"><a href="javascript:void(0)" class="navigation__link"><span>04</span>Stories</a>
+                    </li>
+                    <li class="navigation__item"><a href="javascript:void(0)" class="navigation__link"><span>05</span>Book
+                            now</a></li>
                 </ul>
             </nav>
         </div>
@@ -135,7 +140,7 @@
             {{--End features--}}
 
             {{--Start tours--}}
-            <section class="section-tours">
+            <section class="section-tours" id="section-tours">
                 <div class="u-center-text u-mb-8">
                     <h2 class="heading-secondary">
                         Most popular tours
@@ -174,7 +179,7 @@
                                         <p class="card__price-value">$297</p>
                                     </div>
 
-                                    <a href="javascript:void(0)" class="btn btn--white">Book now!</a>
+                                    <a href="#popup" class="btn btn--white">Book now!</a>
                                 </div>
                             </div>
                         </div>
@@ -211,7 +216,7 @@
                                         <p class="card__price-value">$497</p>
                                     </div>
 
-                                    <a href="javascript:void(0)" class="btn btn--white">Book now!</a>
+                                    <a href="#popup" class="btn btn--white">Book now!</a>
                                 </div>
                             </div>
                         </div>
@@ -248,7 +253,7 @@
                                         <p class="card__price-value">$897</p>
                                     </div>
 
-                                    <a href="javascript:void(0)" class="btn btn--white">Book now!</a>
+                                    <a href="#popup" class="btn btn--white">Book now!</a>
                                 </div>
                             </div>
                         </div>
@@ -397,6 +402,37 @@
                     </div>
                 </div>
             </footer>
+
+            <div class="popup" id="popup">
+                <div class="popup__content">
+                    <div class="popup__left">
+                        <img src="images/nat-8.jpg" alt="" class="popup__img">
+                        <img src="images/nat-9.jpg" alt="" class="popup__img">
+                    </div>
+
+                    <div class="popup__right">
+                        <a href="#section-tours" class="popup__close">&times;</a>
+                        <h2 class="heading-secondary u-mb-small">Start booking now</h2>
+                        <h3 class="heading-tertiary u-mb-small">Important &ndash; Please read the terms before
+                            booking</h3>
+                        <p class="popup__text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi, dolores doloribus, eaque
+                            error exercitationem inventore ipsa labore modi, necessitatibus optio possimus quasi quo?
+                            Amet quidem, tenetur? Fugit id, perspiciatis. Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Ad animi, dolores doloribus, eaque
+                            error exercitationem inventore ipsa labore modi, necessitatibus optio possimus quasi quo?
+                            Amet quidem, tenetur? Fugit id, perspiciatis. Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Ad animi, dolores doloribus, eaque
+                            error exercitationem inventore ipsa labore modi, necessitatibus optio possimus quasi quo?
+                            Amet quidem, tenetur? Fugit id, perspiciatis. Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Ad animi, dolores doloribus, eaque
+                            error exercitationem inventore ipsa labore modi, necessitatibus optio possimus quasi quo?
+                            Amet quidem, tenetur? Fugit id, perspiciatis.
+                        </p>
+                        <a href="javascript.void(0)" class="btn btn--green">Book now</a>
+                    </div>
+                </div>
+            </div>
         </main>
     </body>
 </html>
